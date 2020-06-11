@@ -1,10 +1,10 @@
 % Initialization.
 clear; close all; clc;
-
+a='!!!!'
 % Load training data ----------------------------------------------------------------
 fprintf('Loading data...\n');
 
-load('digits.mat');
+load('digits.mat')
 m = size(X, 1);
 
 % Plotting some training example ----------------------------------------------------

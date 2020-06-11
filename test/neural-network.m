@@ -1,0 +1,1 @@
+clcclear all#Return a row vector with the size (number of elements) of each dimension for the object a. A=zeros(5000,400);isequal(size(A),[5000,400])#When given a second argument, dim, return the size of the corresponding dimension. isequal(size(A,1),[5000])
