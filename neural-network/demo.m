@@ -10,7 +10,7 @@ m = size(X, 1);
 % Plotting some training example ----------------------------------------------------
 fprintf('Visualizing data...\n');
 
-% Randomly select 100 data points to display
+% Randomly select 100 data points to display.In statistics, a data point or observation is a set of one or more measurements on a single member of a statistical population. 
 random_digits_indices = randperm(size(X, 1));
 random_digits_indices = random_digits_indices(1:100);
 
